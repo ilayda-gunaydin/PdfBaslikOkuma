@@ -19,5 +19,5 @@ while True:
         main.read_pdf_titles(folder_path)
     elif menuSecim == 2:
         import yazdir
-        yazdir.write_pdf_titles_to_txt(folder_path , output_file)
+        yazdir.write_pdf_titles_to_txt(folder_path, output_file)
 
