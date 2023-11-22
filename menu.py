@@ -19,5 +19,6 @@ while True:
         main.read_pdf_titles(folder_path)
     elif menuSecim == 2:
         import yazdir
+        folder_path = '/Users/ilayda/Desktop/PDF'
+        output_file = 'pdf_titles.txt'
         yazdir.write_pdf_titles_to_txt(folder_path, output_file)
-
